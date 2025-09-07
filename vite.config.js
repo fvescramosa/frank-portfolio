@@ -7,4 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ], base: '/frank-portfolio/',
+  build: { outDir: 'docs' }
 })
